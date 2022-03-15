@@ -79,10 +79,10 @@
         <div class="reg-form">
             <form action="">
                 <label for="first-name">First Name:</label>
-                <input type="text" name="first-name" placeholder="Arjun">
+                <input type="text" name="first-name" placeholder="Arjun" required>
 
                 <label for="last-name">Last Name:</label>
-                <input type="text" name="last-name" placeholder="Pandu">
+                <input type="text" name="last-name" placeholder="Pandu" required>
 
                 <div>
                     <label for="gender-male">Male</label>
@@ -97,12 +97,53 @@
 
                 <div>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="" placeholder="arjun@gmail.com">
+                    <input type="email" name="email" id="" placeholder="arjun@gmail.com" required>
 
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="" 
-                >
+                    <input type="password" name="password" id="" required>
+
                 </div>
+                <div>
+
+                    <label for="Month">Birthday</label>
+                    <select name="Month" id="months">
+                        <option value="0" selected disabled>Month</option>
+                        <option value="jan">JAN</option>
+                        <option value="feb">FEB</option>
+                        <option value="mar">MAR</option>
+                        <option value="apr">APR</option>
+                        <option value="may">MAY</option>
+                        <option value="jun">JUN</option>
+                        <option value="jul">JUL</option>
+                        <option value="aug">AUG</option>
+                        <option value="sep">SEP</option>
+                        <option value="oct">OCT</option>
+                        <option value="nov">NOV</option>
+                        <option value="dec">DEC</option>
+                    </select>
+
+                    <select name="Month" id="months">
+                        <option value="0" selected disabled>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+
+                <label for="agree">I agree to all the conditions of the form :</label>
+
+                <input type="checkbox" name="agree">
+
+                <button type="submit">Submit</button>
             </form>
         </div>
 </body>
