@@ -1,0 +1,56 @@
+#lo-1{
+    background: black;
+    color: white;
+
+    border: 3px dashed rebeccapurple;
+    padding: 13px 13px 13px 20px;
+    margin: 10px auto;
+}
+
+#nornal{
+    font-style: normal;
+}
+
+#italic{
+    font-style: italic;
+}
+
+#oblique{
+    font-style: oblique;
+}
+#smallcap{
+    font-variant: small-caps;
+}
+#wnormal{
+    font-weight: normal;
+}
+#wbold{
+    font-weight: bold;
+}
+#wbolder{
+    font-weight: bolder;
+}
+#wlighter{
+    font-weight: lighter;
+}
+#xxlarge{
+    font-size: x-large;
+}
+#large{
+    font-size: large;
+}
+#medium{
+    font-size: medium;
+}
+#small{
+    font-size: small;
+}
+#xxmmall{
+    font-size: 150%;
+}
+#size25pt{
+    line-height: 25pt;
+}
+#size150{
+    line-height: 150%;
+}
