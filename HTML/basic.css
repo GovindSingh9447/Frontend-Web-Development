@@ -2,3 +2,12 @@ div{
     background: rgb(235, 134, 11);
     color: white;
 }
+#things{
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#dailogs{
+    font-family: 'Gill Sans'  , 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
