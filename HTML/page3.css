@@ -1,0 +1,26 @@
+#container{
+    background: burlywood;
+    border: 2px royalblue;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+#centered{
+    background: cadetblue;
+    text-align: center;
+}
+#top-left{
+    background: salmon;
+    border: 1px solid black;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+#bottom-right{
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: black;
+    z-index: 5;
+}
