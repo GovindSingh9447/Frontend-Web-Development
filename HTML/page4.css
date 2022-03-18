@@ -1,0 +1,26 @@
+a:hover {
+    background: black;
+    color: azure;
+}
+body{
+
+    background: darkgray;
+}
+
+#wrapper{
+    margin:0 auto;
+    background-color: white;
+    width: 800px;
+    height: 100px;
+
+    
+}
+header{
+    padding: 0px 0px 0px 0px ;
+}
+
+#horzNav:hover{
+    display: block;
+    background: black;
+    color: white;
+}
