@@ -6,3 +6,6 @@ ul{
 li:nth-child(2n){
     background-color: antiquewhite;
 }
+p::first-line{
+    text-transform: uppercase;
+}
