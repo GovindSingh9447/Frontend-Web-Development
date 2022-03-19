@@ -14,3 +14,12 @@ let name='Happy Day';
 let age='11';
 console.log(name);
 console.log(age);
+
+let option=true;
+let height;
+
+console.log(option);
+console.log(height);
+
+
+
