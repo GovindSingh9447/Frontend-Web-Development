@@ -28,6 +28,11 @@ console.log(shopping);
 console.log(shopping[2]);
 
 
+let numbers=[];
+numbers=[1,2,3,4,5,6,7,8,9];
+console.log(numbers[3]+numbers[7]);
+console.log(numbers.sort());
+numbers.push(10);
 
 
 
