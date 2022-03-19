@@ -1,3 +1,39 @@
 body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+div{
+    border: 2px solid white;
+    background: red;
+    width: 500px;
+    height: 500px;
+}
+
+div:hover{
+    transform: skew(20deg, 10deg);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 3px solid black;
+
+    position: relative;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    border: 2px solid black;
+    animation-iteration-count: 500;
+
+}
+
+@keyframes anime{
+
+    0% {background-color: red;left: 0px;top: 0px;}
+    25% {background-color: yellow;left: 300px; top: 0px;}
+    50% {background-color: blue; left: 300px; top: 300px;}
+    75% {background-color: green;left: 0px;top: 300px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
