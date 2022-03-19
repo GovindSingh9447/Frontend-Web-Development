@@ -35,4 +35,33 @@ console.log(numbers.sort());
 numbers.push(10);
 
 
+//OBJECT
+
+let pen={
+    type:'ballpoint',
+    color:'black',
+    cost:10
+};
+
+//SYNTEX OF ACCESING OBJECT
+
+//OBJECTNAME.PROPERTYNAME
+//OBJECTNAME['PROPERTYNAME']
+
+console.log(pen.cost);
+console.log(pen.color);
+
+
+//example
+
+let unda={
+    age:18,
+    school:'St. Pauls High Schhol',
+    class:'10th',
+    subject:['phy','chem','Bio','Hindi']
+};
+
+console.log(unda.school);
+console.log(unda.subject[2]);
+
 
