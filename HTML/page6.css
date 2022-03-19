@@ -4,5 +4,8 @@
 
 #never-wrap{
     white-space: nowrap;
+}
 
+#npreserve-wrap{
+    white-space: pre-wrap;
 }
