@@ -24,3 +24,11 @@ header{
     background: black;
     color: white;
 }
+
+#para-1{
+    word-spacing: 20px;
+}
+#para-2{
+    word-spacing: 10px;
+    letter-spacing: 20px;
+}
