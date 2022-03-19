@@ -22,4 +22,12 @@ console.log(option);
 console.log(height);
 
 
+let shopping=[];
+shopping=['paintBrush','color boot', 'paint note'];
+console.log(shopping);
+console.log(shopping[2]);
+
+
+
+
 
