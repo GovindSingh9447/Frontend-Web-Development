@@ -28,7 +28,24 @@ header{
 #para-1{
     word-spacing: 20px;
 }
+
+#para-1:after{
+    content: "asdfghjkl";
+}
+
 #para-2{
     word-spacing: 10px;
     letter-spacing: 20px;
+
+}
+
+ul{
+    list-style: lower-greek;
+}
+
+footer{
+    clear: both;
+    background-color: aqua;
+    color: black;
+
 }

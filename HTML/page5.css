@@ -1,0 +1,8 @@
+ul{
+    background-color: aquamarine;
+    width:360px;
+    margin: 100px auto;
+}
+li:nth-child(2n){
+    background-color: antiquewhite;
+}
