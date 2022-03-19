@@ -22,6 +22,8 @@ console.log(option);
 console.log(height);
 
 
+//ARRAY
+
 let shopping=[];
 shopping=['paintBrush','color boot', 'paint note'];
 console.log(shopping);
