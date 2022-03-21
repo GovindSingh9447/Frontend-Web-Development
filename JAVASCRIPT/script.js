@@ -66,4 +66,9 @@ let unda={
 console.log(unda.school);
 console.log(unda.subject[2]);
 
+//FUNCTION
 
+function hello(){
+    console.log("hello");
+}
+hello();
