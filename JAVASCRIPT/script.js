@@ -72,3 +72,11 @@ function hello(){
     console.log("hello");
 }
 hello();
+
+function product(a,b){
+    return a*b;
+}
+let x=product(12,5);
+console.log(x);
+
+//conditional statements
