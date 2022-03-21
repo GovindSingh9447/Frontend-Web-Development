@@ -82,7 +82,7 @@ console.log(x);
 //conditional statements
 
 let num=[];
-num=[1,3,5,3,7,2];
+num=[1,3,5,3,1,2];
 if(num[0]==num[2]){
     console.log('correct');
 }
@@ -93,4 +93,6 @@ if(num[0]==num[4]){
 else{
     console.log("try again");
 }
+
+//loop
 
