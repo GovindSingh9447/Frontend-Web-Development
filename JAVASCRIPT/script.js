@@ -92,7 +92,17 @@ if(num[0]==num[4]){
 }
 else{
     console.log("try again");
-}
+} 
 
 //loop
+let i=0;
+while(i<5){
+    console.log("The number is " +i);
+    i++;
+}
 
+//do while loop
+do{
+    console.log("The number is " +i);
+    i++;
+}while(i<5);
