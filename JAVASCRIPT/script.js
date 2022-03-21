@@ -80,3 +80,17 @@ let x=product(12,5);
 console.log(x);
 
 //conditional statements
+
+let num=[];
+num=[1,3,5,3,7,2];
+if(num[0]==num[2]){
+    console.log('correct');
+}
+
+if(num[0]==num[4]){
+    console.log('good to go');
+}
+else{
+    console.log("try again");
+}
+
